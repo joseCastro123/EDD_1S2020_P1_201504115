@@ -1,10 +1,12 @@
 # depslib dependency file v1.0
-1581398495 source:/home/dark/CodeBlock/Practica1/main.cpp
+1581642210 source:/home/dark/CodeBlock/Practica1/main.cpp
 	<iostream>
 	<string>
+	<ncurses.h>
 	"Doubly_Linked_List.h"
+	"Stack.h"
 
-1581391095 /home/dark/CodeBlock/Practica1/include/Doubly_Linked_List.h
+1581460858 /home/dark/CodeBlock/Practica1/include/Doubly_Linked_List.h
 	"Node.h"
 	<iostream>
 	<string>
@@ -13,7 +15,7 @@
 	<iostream>
 	<string>
 
-1581398212 source:/home/dark/CodeBlock/Practica1/src/Doubly_Linked_List.cpp
+1581478922 source:/home/dark/CodeBlock/Practica1/src/Doubly_Linked_List.cpp
 	"Doubly_Linked_List.h"
 	"Node.h"
 	<iostream>
@@ -26,6 +28,26 @@
 
 1581306753 source:/home/dark/CodeBlock/Practica1/src/Node.cpp
 	"Node.h"
+	<iostream>
+	<string>
+
+1581642143 /home/dark/CodeBlock/Practica1/include/Stack.h
+	"Node_Stack.h"
+	<iostream>
+	<string>
+
+1581642023 /home/dark/CodeBlock/Practica1/include/Node_Stack.h
+	<iostream>
+	<string>
+
+1581642037 source:/home/dark/CodeBlock/Practica1/src/Node_Stack.cpp
+	"Node_Stack.h"
+	<iostream>
+	<string>
+
+1581642128 source:/home/dark/CodeBlock/Practica1/src/Stack.cpp
+	"Stack.h"
+	"Node_Stack.h"
 	<iostream>
 	<string>
 

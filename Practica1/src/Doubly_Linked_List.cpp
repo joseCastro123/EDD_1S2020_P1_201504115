@@ -84,6 +84,89 @@ void Doubly_Linked_List::insert_Front_Node(char caracter, int id)
 }
 //end method insert_Front_Node
 
+//begin method insert_Middle_Node
+void Doubly_Linked_List::insert_Middle_Node(char caracter, int id,int pos)
+{
+
+    Node *new_Node = new Node();
+    new_Node->id = id;
+    new_Node->caracter = caracter;
+
+    if(is_Empty())
+    {
+        head = new_Node;
+        head->next = NULL;
+        head->previous = NULL;
+        tail = head;
+    }
+    else
+    {
+        Node *temp = head;
+        while(temp!=NULL)
+        {
+
+
+        }
+    }
+
+
+
+}
+
+//end method insert_Middle_Node
+
+//begin method Delete_Node
+void Doubly_Linked_List::delete_Node(int id)
+{
+    Node *current_Node = new Node();
+    current_Node = head;
+    Node *previous_Node = new Node();
+    previous_Node = NULL;
+
+    bool found = false;
+    if(head!=NULL)
+    {
+        while(current_Node != NULL && found != true)
+        {
+            if(current_Node->id == id)
+            {
+             if(current_Node == head)
+             {
+                 head = head->next;
+                 head->previous = NULL;
+             }
+             else if (current_Node == tail)
+             {
+                 tail = tail->previous;
+                 tail->next = NULL;
+             }
+             else
+             {
+                previous_Node->next = current_Node->next;
+                current_Node->next->previous = previous_Node;
+             }
+
+             found = true;
+            }
+
+            previous_Node = current_Node;
+            current_Node = current_Node->next;
+
+            if(found == true)
+                break;
+        }
+
+    }
+    else
+    {
+    cout<<"La Lista esta vacia!!!! >:v";
+    }
+
+
+
+}
+//end method  Delete_Node
+
 //begin method display_forward
 void Doubly_Linked_List::display_forward()
 {

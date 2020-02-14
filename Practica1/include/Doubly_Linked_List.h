@@ -19,7 +19,7 @@ class Doubly_Linked_List
         bool is_Empty();//done
         void insert_Node(char,int);//done
         void insert_Front_Node(char,int);//done
-        void insert_Middle_Node(char,int);
+        void insert_Middle_Node(char,int,int);
         void delete_Node(int);
 
 
