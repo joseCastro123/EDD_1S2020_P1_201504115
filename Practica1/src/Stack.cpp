@@ -68,6 +68,45 @@ void Stack::display_Stack()
     }
 
 
+
+}//end method display stack
+
+//begin method pop_stack
+
+void Stack::pop_Stack()
+{
+Node_Stack* current = new Node_Stack();
+	current = head_Stack;
+	Node_Stack  *previous = new Node_Stack();
+	previous = NULL;
+	int node_search = 0;
+	bool found_data = false;
+	cout << " Ingrese el dato del Nodo a Buscar para Eliminar: ";
+	cin >> node_search;
+	if(head_Stack!=NULL){
+		while(current!=NULL && found_data != true){
+
+			if(current->position_Word == node_search){
+				cout << endl << " Nodo con el dato ( " << node_search << " ) Encontrado";
+
+				if(current == head_Stack){
+					head_Stack = head_Stack->node_Stack_Next;
+				}else{
+					previous->node_Stack_Next = current->node_Stack_Next;
+				}
+				cout << endl << " Nodo Eliminado" << endl << endl;
+				found_data = true;
+			}
+			previous = current;
+			current = current->node_Stack_Next;
+		}
+		if(found_data==false){
+			cout << endl << " Nodo no Encontrado" << endl << endl;
+		}
+	}else{
+		cout << endl << " La Pila se encuentra vacia" << endl << endl;
+	}
+
 }
 
 

@@ -51,3 +51,72 @@
 	<iostream>
 	<string>
 
+1582149423 source:/home/dark/CodeBlock/Practic/EDD_1S2020_P1_201504115/Practica1/main.cpp
+	<iostream>
+	<string>
+	<ncurses.h>
+	"Doubly_Linked_List.h"
+	"Stack.h"
+	"myWin.h"
+
+1581647300 /home/dark/CodeBlock/Practic/EDD_1S2020_P1_201504115/Practica1/include/Doubly_Linked_List.h
+	"Node.h"
+	<iostream>
+	<string>
+
+1581647300 /home/dark/CodeBlock/Practic/EDD_1S2020_P1_201504115/Practica1/include/Node.h
+	<iostream>
+	<string>
+
+1582076529 /home/dark/CodeBlock/Practic/EDD_1S2020_P1_201504115/Practica1/include/Stack.h
+	"Node_Stack.h"
+	<iostream>
+	<string>
+
+1581647300 /home/dark/CodeBlock/Practic/EDD_1S2020_P1_201504115/Practica1/include/Node_Stack.h
+	<iostream>
+	<string>
+
+1581904181 source:/home/dark/CodeBlock/Practic/EDD_1S2020_P1_201504115/Practica1/src/Doubly_Linked_List.cpp
+	"Doubly_Linked_List.h"
+	"Node.h"
+	<iostream>
+	<string>
+
+1581647300 source:/home/dark/CodeBlock/Practic/EDD_1S2020_P1_201504115/Practica1/src/Node.cpp
+	"Node.h"
+	<iostream>
+	<string>
+
+1581647300 source:/home/dark/CodeBlock/Practic/EDD_1S2020_P1_201504115/Practica1/src/Node_Stack.cpp
+	"Node_Stack.h"
+	<iostream>
+	<string>
+
+1582080683 source:/home/dark/CodeBlock/Practic/EDD_1S2020_P1_201504115/Practica1/src/Stack.cpp
+	"Stack.h"
+	"Node_Stack.h"
+	<iostream>
+	<string>
+
+1582146082 source:/home/dark/CodeBlock/Practic/EDD_1S2020_P1_201504115/Practica1/src/myWin.cpp
+	"myWin.h"
+	<iostream>
+	<string>
+	<ncurses.h>
+	<bits/stdc++.h>
+
+1582145310 /home/dark/CodeBlock/Practic/EDD_1S2020_P1_201504115/Practica1/include/myWin.h
+	<iostream>
+	<string>
+	<ncurses.h>
+
+1582147167 source:/home/dark/CodeBlock/Practic/EDD_1S2020_P1_201504115/Practica1/src/Node_Circle.cpp
+	"Node_Circle.h"
+	<iostream>
+	<string>
+
+1582147167 /home/dark/CodeBlock/Practic/EDD_1S2020_P1_201504115/Practica1/include/Node_Circle.h
+	<iostream>
+	<string>
+

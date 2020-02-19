@@ -175,7 +175,7 @@ void Doubly_Linked_List::display_forward()
     {
     while(temp != NULL)
     {
-        cout<<temp->id<<"-->";
+        cout<<temp->id<<"<-->";
         temp = temp->next;
     }
     }

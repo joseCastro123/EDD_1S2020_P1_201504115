@@ -17,10 +17,10 @@ class Stack
         Node_Stack *head_Stack;
         //Node_Stack *tail_Stack;
 
-        bool is_Empty_S();
-        void push_Stack(string,string,string,string,int);
-        void pop_Stack();
-        void top_Stack();
+        bool is_Empty_S();//done
+        void push_Stack(string,string,string,string,int);//done
+        void pop_Stack();//done
+        void top_Stack();//done
         void search_Word(string);
         void replace_Word(string);
         void display_Stack();

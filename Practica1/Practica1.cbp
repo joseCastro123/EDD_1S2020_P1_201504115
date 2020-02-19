@@ -37,15 +37,21 @@
 		<Linker>
 			<Add option="-lncurses" />
 		</Linker>
+		<Unit filename="include/Circular_Linked_List.h" />
 		<Unit filename="include/Doubly_Linked_List.h" />
 		<Unit filename="include/Node.h" />
+		<Unit filename="include/Node_Circle.h" />
 		<Unit filename="include/Node_Stack.h" />
 		<Unit filename="include/Stack.h" />
+		<Unit filename="include/myWin.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Circular_Linked_List.cpp" />
 		<Unit filename="src/Doubly_Linked_List.cpp" />
 		<Unit filename="src/Node.cpp" />
+		<Unit filename="src/Node_Circle.cpp" />
 		<Unit filename="src/Node_Stack.cpp" />
 		<Unit filename="src/Stack.cpp" />
+		<Unit filename="src/myWin.cpp" />
 		<Extensions>
 			<envvars />
 			<code_completion />
