@@ -4,44 +4,32 @@
 	<ActiveTarget name="Debug" />
 	<File name="include/myWin.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="322" topLine="0" />
+			<Cursor1 position="212" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/Node_Stack.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include/Node_Stack.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="200" topLine="0" />
+			<Cursor1 position="103" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include/Doubly_Linked_List.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/Doubly_Linked_List.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="486" topLine="7" />
+			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/myWin.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include/Stack.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1897" topLine="48" />
+			<Cursor1 position="242" topLine="1" />
 		</Cursor>
 	</File>
-	<File name="src/Doubly_Linked_List.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/Node.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3377" topLine="126" />
+			<Cursor1 position="307" topLine="1" />
 		</Cursor>
-		<Folding>
-			<Collapse line="10" />
-			<Collapse line="17" />
-			<Collapse line="22" />
-			<Collapse line="37" />
-			<Collapse line="62" />
-		</Folding>
 	</File>
 	<File name="include/Node.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="69" topLine="1" />
-		</Cursor>
-	</File>
-	<File name="main.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="173" topLine="1" />
 		</Cursor>
 	</File>
 	<File name="src/Stack.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -54,19 +42,48 @@
 			<Collapse line="46" />
 		</Folding>
 	</File>
-	<File name="include/Node_Stack.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include/Circular_Linked_List.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="103" topLine="0" />
+			<Cursor1 position="87" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="src/Node.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="132" topLine="5" />
+			<Cursor1 position="510" topLine="12" />
 		</Cursor>
 	</File>
-	<File name="include/Stack.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/Circular_Linked_List.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="242" topLine="1" />
+			<Cursor1 position="441" topLine="25" />
+		</Cursor>
+	</File>
+	<File name="src/file_Graphviz.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1707" topLine="11" />
+		</Cursor>
+		<Folding>
+			<Collapse line="22" />
+			<Collapse line="32" />
+		</Folding>
+	</File>
+	<File name="include/file_Graphviz.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="351" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src/myWin.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3295" topLine="140" />
+		</Cursor>
+	</File>
+	<File name="include/Doubly_Linked_List.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="486" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="src/Node_Stack.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="200" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

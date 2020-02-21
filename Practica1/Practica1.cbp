@@ -43,6 +43,7 @@
 		<Unit filename="include/Node_Circle.h" />
 		<Unit filename="include/Node_Stack.h" />
 		<Unit filename="include/Stack.h" />
+		<Unit filename="include/file_Graphviz.h" />
 		<Unit filename="include/myWin.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Circular_Linked_List.cpp" />
@@ -51,6 +52,7 @@
 		<Unit filename="src/Node_Circle.cpp" />
 		<Unit filename="src/Node_Stack.cpp" />
 		<Unit filename="src/Stack.cpp" />
+		<Unit filename="src/file_Graphviz.cpp" />
 		<Unit filename="src/myWin.cpp" />
 		<Extensions>
 			<envvars />

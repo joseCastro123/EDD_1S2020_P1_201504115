@@ -1,0 +1,21 @@
+digraph R { 
+ rankdir=LR 
+ node [shape=record fontname=Arial];
+a [label="a\l"]
+b [label="b\l"]
+c [label="c\l"]
+d [label="d\l"]
+e [label="e\l"]
+f [label="f\l"]
+//{ rank=same  a b c d e f }
+a->b
+b->a
+b->c
+c->b
+c->d
+d->c
+d->e
+e->d
+e->f
+f->e
+}

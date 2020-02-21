@@ -47,9 +47,7 @@ getmaxyx(stdscr,heigth,width);//get size heigth and width the screen
 start_x = start_y = 0; //start position in the screen
 win = newwin(heigth,width,start_y,start_x);//initialize screen
 
-WINDOW *second = subwin(win,heigth-8,width-4,start_y+2,start_x+2);
 
-box(second,0,0);
 refresh();
 keypad(win,true);//option enables the keypad of the user's terminal
 refresh();//must be called to get actual output to the terminal
@@ -82,9 +80,9 @@ getmaxyx(stdscr,heigth,width);//get size heigth and width the screen
 start_x = start_y = 0; //start position in the screen
 win = newwin(heigth,width,start_y,start_x);//initialize screen
 
-WINDOW *second = subwin(win,heigth-8,width-4,start_y+2,start_x+2);
+//WINDOW *second = subwin(win,heigth-8,width-4,start_y+2,start_x+2);
 
-box(second,0,0);
+//box(second,0,0);
 refresh();
 keypad(win,true);//option enables the keypad of the user's terminal
 refresh();//must be called to get actual output to the terminal
@@ -102,7 +100,7 @@ wrefresh(win);//refresh screen with text
 pos_x = 1;//position cursor in x
 pos_y = 1;//position cursor in y
 //wmove(win,y,x)
-wmove(win,pos_y+2,pos_x+2);//fuction move the cursor
+wmove(win,pos_y,pos_x);//fuction move the cursor
 
 int caracter = wgetch(win);//get input key
 getInput_Key(caracter);
@@ -139,11 +137,15 @@ switch(caracter)
         {
         pos_x = width -2;
         pos_y = pos_y -1;
+
         }
 
     }
+    ////////
+    //mvdelch(pos_y,pos_x);
+   // mvwdelch(win, pos_y, pos_x);
 
-
+    ///
     mvwaddch(win,pos_y,pos_x,32);
     wmove(win,pos_y,pos_x);
 
@@ -262,7 +264,6 @@ default:
 break;
 
 }//end switch
-
 
 
 }//end method arrows

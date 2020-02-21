@@ -38,7 +38,7 @@ bool Circular_Linked_List::is_Empty_Circle()
 
 void Circular_Linked_List::inser_node_circle(string word, string modified_word)
 {
-    Node_Circle newNode = new Node();
+    Node_Circle *newNode = new Node_Circle();
     newNode->word = word;
     newNode->modified_word = modified_word;
     if(is_Empty_Circle())
@@ -49,12 +49,36 @@ void Circular_Linked_List::inser_node_circle(string word, string modified_word)
     }
     else
     {
-    tail_circle->node_C_next = newNode;
-    newNode->node_C_next = head_circle;
-    tail_circle = newNode;
-
-
+        tail_circle->node_C_next = newNode;
+        newNode->node_C_next = head_circle;
+        tail_circle = newNode;
 
     }
+
+}
+//end method insert nodelay)
+
+
+void Circular_Linked_List::display_node()
+{
+    Node_Circle *temp = new Node_Circle();
+    temp = head_circle;
+    if(head_circle != NULL)
+    {
+        while(temp!=head_circle)
+        {
+        cout<<"Palabra: "<<temp->word;
+        cout<<"Modificada:"<<temp->modified_word;
+        temp = temp->node_C_next;
+
+        }
+
+    }
+    else
+    {
+    cout<<"the circular linked list is empty";
+
+    }
+
 
 }

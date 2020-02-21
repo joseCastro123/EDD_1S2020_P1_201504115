@@ -7,6 +7,7 @@
 #include "Doubly_Linked_List.h"
 #include "Stack.h"
 #include "myWin.h"
+#include "file_Graphviz.h"
 
 using namespace std;
 
@@ -15,16 +16,27 @@ void menu();
 void lista_Doble(int , Doubly_Linked_List **);
 //Variables
 Doubly_Linked_List *doubly_List = new Doubly_Linked_List();
+file_Graphviz *graf = new file_Graphviz();
 
 int main()
 {
 ////////////////////////
-//myWin miventana;
-//miventana.createWindows();
+myWin miventana;
+miventana.createWindows();
     //////////////////////////////////
     //menu();
 
-
+    /*
+    doubly_List->insert_Node('a',1);
+    doubly_List->insert_Node('b',2);
+    doubly_List->insert_Node('c',3);
+    doubly_List->insert_Node('d',4);
+    doubly_List->insert_Node('e',4);
+    doubly_List->insert_Node('f',4);
+    graf->createFile_Double_Linked_list(&doubly_List);
+    system("dot -Tpng datos.dot -o output.png");
+    system("eog output.png");
+    */
     return 0;
 }
 

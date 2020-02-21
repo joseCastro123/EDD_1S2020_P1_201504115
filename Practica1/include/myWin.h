@@ -13,6 +13,7 @@ class myWin
         //Variables
         WINDOW *win;
         string word_menu[11];
+
         int pos_y;
         int pos_x;
         int heigth,width,start_x,start_y;
